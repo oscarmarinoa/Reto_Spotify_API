@@ -6,7 +6,7 @@ Explicación detallada del contenido de los datos y su formato.
  | --- | --- | --- | --- |
  | **_ disc_number _**| 
  | **_duration_ms_** | The duration of the track in milliseconds. | integer | |
- | **_explicit_** |
+ | **_explicit_** | prueba | | |
  | **_track_number_** |
  | **_track_popularity_** |
  | **_track_id_** | The Spotify ID for the track. | string | | 
