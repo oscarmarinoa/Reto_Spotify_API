@@ -30,4 +30,4 @@ Explicación detallada del contenido de los datos y su formato.
  | **_album_id_** |
  | **_album_name_** |
  | **_album_release_date_** |
- | **_album_total_track_**s |
+ | **_album_total_track_**s | The number of tracks in the album. | integer | | 
