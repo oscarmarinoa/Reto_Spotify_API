@@ -4,13 +4,13 @@ Explicación detallada del contenido de los datos y su formato.
 ##### Dataset:
  | **Característica** | **Descripción** | **Formato** | **Observación** |
  | --- | --- | --- | --- |
- | **_ disc_number _**| 
+ | **_disc_number_**| The disc number (usually 1 unless the album consists of more than one disc). | integer | |
  | **_duration_ms_** | The duration of the track in milliseconds. | integer | |
- | **_explicit_** | prueba | | |
- | **_track_number_** |
- | **_track_popularity_** |
+ | **_explicit_** | Whether or not the track has explicit lyrics ( true = yes it does; false = no it does not OR unknown). | boolean | |
+ | **_track_number_** | The number of the track. If an album has several discs, the track number is the number on the specified disc. | integer | |
+ | **_track_popularity_** | The popularity of the track. The value will be between 0 and 100, with 100 being the most popular. | integer | |
  | **_track_id_** | The Spotify ID for the track. | string | | 
- | **_track_name_** |
+ | **_track_name_** | The name of the track. | string | |
  | **_audio_features.danceability_** | how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable. | number [float] | Range: 0 - 1 |
  | **_audio_features.energy_** | Represents a perceptual measure of intensity and activity. | number [float] | Range: 0 - 1 |
  | **_audio_features.key_** | The key the track is in. If no key was detected, the value is -1.| integer | Range: -1 - 11 |
@@ -22,12 +22,12 @@ Explicación detallada del contenido de los datos y su formato.
  | **_audio_features.liveness_** | Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. | number [float] | |
  | **_audio_features.valence_** | A measure describing the musical positiveness conveyed by a track. | number [float] | Range: 0 - 1 |
  | **_audio_features.tempo_** | The overall estimated tempo of a track in beats per minute (BPM). | number [float] | |
- | **_audio_features.id_** |
+ | **_audio_features.id_** | The Spotify ID for the track. | string | |
  | **_audio_features.time_signature_** | An estimated time signature. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure). | integer | Range: 3 - 7 |
- | **_artist_id_** |
- | **_artist_name_** |
- | **_artist_popularity_** |
- | **_album_id_** |
- | **_album_name_** |
- | **_album_release_date_** |
- | **_album_total_track_**s | The number of tracks in the album. | integer | | 
+ | **_artist_id_** | The Spotify ID for the artist. | string | |
+ | **_artist_name_** | The name of the artist. | string | |
+ | **_artist_popularity_** | The popularity of the artist. The value will be between 0 and 100, with 100 being the most popular. | integer | Range: 0 - 100 |
+ | **_album_id_** | The Spotify ID for the album. | string | |
+ | **_album_name_** | The name of the album. In case of an album takedown, the value may be an empty string. | string | |
+ | **_album_release_date_** | The precision with which release_date value is known. | string | |
+ | **_album_total_track_** | The number of tracks in the album. | integer | | 
