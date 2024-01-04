@@ -5,7 +5,7 @@ Explicación detallada del contenido de los datos y su formato.
  | **Característica** | **Descripción** | **Formato** | **Observación** |
  | --- | --- | --- | --- |
  | **_disc_number_**| The disc number (usually 1 unless the album consists of more than one disc). | integer | <sub>N/A</sub> |
- | **_duration_ms_** | The duration of the track in milliseconds. | integer | |
+ | **_duration_ms_** | The duration of the track in milliseconds. | integer | <sub>N/A</sub> |
  | **_explicit_** | Whether or not the track has explicit lyrics ( true = yes it does; false = no it does not OR unknown). | boolean | <sub>N/A</sub> |
  | **_track_number_** | The number of the track. If an album has several discs, the track number is the number on the specified disc. | integer | <sub>N/A</sub> |
  | **_track_popularity_** | The popularity of the track. The value will be between 0 and 100, with 100 being the most popular. | integer | <sub>N/A</sub> |
