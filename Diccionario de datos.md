@@ -18,7 +18,7 @@ Explicación detallada del contenido de los datos y su formato.
  | **_audio_features.mode_** | indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0. | integer | <sub>N/A</sub> |
  | **_audio_features.speechiness_** | Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. | number [float] | <sub>N/A</sub> |
  | **_audio_features.acousticness_** | A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic. | number [float] | Range: 0 - 1 |
- | **_audio_features.instrumentalness_** | Predicts whether a track contains no vocals. | The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. | number [float] | Range: 0 - 1 |
+ | **_audio_features.instrumentalness_** | Predicts whether a track contains no vocals. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. | number [float] | Range: 0 - 1 |
  | **_audio_features.liveness_** | Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. | number [float] | <sub>N/A</sub> |
  | **_audio_features.valence_** | A measure describing the musical positiveness conveyed by a track. | number [float] | Range: 0 - 1 |
  | **_audio_features.tempo_** | The overall estimated tempo of a track in beats per minute (BPM). | number [float] | <sub>N/A</sub> |
