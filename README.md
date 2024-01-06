@@ -4,11 +4,11 @@
 
 Este apartado hace referencia al contenido del repositorio y los archivos para la resolución de la prueba técnica:
 
-* Código Tarea 1.py: Código de resolución tarea 1.
-* Dataset_om.csv: Resultado código tarea 1
-* Código Tarea 2.py: Código de resolución tarea 2.
 * Análisis Calidad de datos.pdf: Reporte de evaluación de calidad de datos.
 * Cálculo de porcentajes.xlsx: Calculo de porcentajes para la evaluación de calidad de datos.
+* Código Tarea 1.py: Código de resolución tarea 1.
+* Código Tarea 2.py: Código de resolución tarea 2.
+* Dataset_om.csv: Resultado código tarea 1
 * Take Home Project - Data Quality Engineer.pdf: Objetivos prueba técnica.
 * taylor_swift_spotify.json: Archivo json API de Spotify.
 
@@ -23,7 +23,7 @@ Explicación detallada del contenido de los datos y su formato.
  | **_duration_ms_** | The duration of the track in milliseconds. | integer | <sub>N/A</sub> |
  | **_explicit_** | Whether or not the track has explicit lyrics ( true = yes it does; false = no it does not OR unknown). | boolean | <sub>N/A</sub> |
  | **_track_number_** | The number of the track. If an album has several discs, the track number is the number on the specified disc. | integer | <sub>N/A</sub> |
- | **_track_popularity_** | The popularity of the track. The value will be between 0 and 100, with 100 being the most popular. | integer | <sub>N/A</sub> |
+ | **_track_popularity_** | The popularity of the track. The value will be between 0 and 100, with 100 being the most popular. | integer | Range: 0 - 100 |
  | **_track_id_** | The Spotify ID for the track. | string | <sub>N/A</sub> | 
  | **_track_name_** | The name of the track. | string | <sub>N/A</sub> |
  | **_audio_features.danceability_** | how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable. | number [float] | Range: 0 - 1 |
